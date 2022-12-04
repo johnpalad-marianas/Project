@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    position: absolute;
+    top: 1250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h2 {
+    font-size: 70px;
+    padding-bottom: 60px;
+}
+
+.container h3 {
+    padding-bottom: 40px;
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+th {
+    text-align: left;
+}
+
+thead th {
+    background-color: #55608f;
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+tbody td {
+    position: relative;
+}
+
+tbody td:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainmenu {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    width: 80px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.navmenu {
+    position: sticky;
+    top: 0px;
+}
+
+.content {
+    padding-right: 800px;
+    padding-bottom: 45px;
+}
+
+.content h1 {
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.content h1:hover {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+.content h2 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.body1 {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.image1 {
+    padding-top: 180px;
+    padding-left: 150px;
+}
+
+.image2 {
+    position: relative;
+    bottom: 650px;
+    width: 863px;
+    padding-left: 450px;
+}
+
+.heading2 {
+    color-scheme: #222222;
+    position: relative;
+    bottom: 420px;
+    left: 925px;
+    font-size: 40px;
+    display: block;
+    text-align: auto;
+    width: 635px;
+    padding-bottom: 50px;
+}
+
+.paragraph1 {
+    color: #891F11;
+    position: relative;
+    bottom: 420px;
+    left: 975px;
+    font-size: 18px;
+    display: block;
+    text-align: left;
+    width: 650px;
+}
+
+.body2 {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.image3 {
+    position: relative;
+    top: 680px;
+    left: 1125px;
+
+}
+
+.image4 {
+    position: relative;
+    top: 100px;
+    width: 500px;
+    left: 925px;
+}
+
+.heading3 {
+    color-scheme: #222222;
+    position: relative;
+    top: 250px;
+    left: 145px;
+    font-size: 40px;
+    display: block;
+    text-align: auto;
+    width: 635px;
+    padding-bottom: 50px;
+}
+
+.paragraph2 {
+    color: #891F11;
+    position: relative;
+    top: 275px;
+    left: 150px;
+    font-size: 18px;
+    display: block;
+    text-align: left;
+    width: 650px;
+}
+
+.body3 {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.image5 {
+    position: relative;
+    top: 1440px;
+    left: 150px;
+}
+
+.image6 {
+    position: relative;
+    top: 1050px;
+    width: 500px;
+    left: 400px;
+}
+
+.heading4 {
+    color-scheme: #222222;
+    position: relative;
+    top: 990px;
+    left: 925px;
+    font-size: 40px;
+    display: block;
+    text-align: auto;
+    width: 635px;
+    padding-bottom: 50px;
+}
+
+.paragraph3 {
+    color: #891F11;
+    position: relative;
+    top: 1025px;
+    left: 1000px;
+    font-size: 18px;
+    display: block;
+    text-align: left;
+    width: 650px;
+}
